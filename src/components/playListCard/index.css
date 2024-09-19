@@ -1,0 +1,53 @@
+li {
+  list-style-type: none;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 150px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.song-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 15px;
+}
+.song-name {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px;
+}
+.song-genre {
+  color: #3b82f6;
+  font-size: 25px;
+  margin: 5px;
+}
+img {
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+}
+.remove-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  margin-left: auto;
+}
+.delete-icon {
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
